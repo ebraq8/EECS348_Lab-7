@@ -9,7 +9,7 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(googletest)
 
 enable_testing()
-add_executable(tests tests.cpp ../problem1/football_score.c ../problem2/temperature_conversion.c)
+add_executable(tests tests.cpp ../problem1/football_score.c ../problem2/temperature.c)
 target_include_directories(tests PRIVATE ..)
 target_link_libraries(tests assignment GTest::gtest_main)
 include(GoogleTest)
