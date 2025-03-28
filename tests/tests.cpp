@@ -2,7 +2,7 @@
 
 extern "C" {
 #include "football.h"
-#include "temperature.h"
+#include "../problem2/temperature.h"
 }
 
 TEST(Football, CorrectOutput) {
