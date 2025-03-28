@@ -1,3 +1,4 @@
+#include "temperature.h"
 #include <stdio.h>
 
 // Conversion functions
